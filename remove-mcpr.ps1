@@ -159,7 +159,7 @@ else
         the storage account is in our GCS Tenant
         #>
         Write-Host 'Downloading MCPR Tool...'
-        Invoke-webrequest 'https://trendremoval.blob.core.windows.net/$web/MCPR.zip' -outfile c:\windows\temp\MCPR.zip
+        Invoke-webrequest 'https://***********/MCPR.zip' -outfile c:\windows\temp\MCPR.zip
 
         # Follow instructions at top of page to package file correctly
         write-host 'Extracting...'
