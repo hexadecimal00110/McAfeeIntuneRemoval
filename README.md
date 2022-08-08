@@ -19,12 +19,12 @@ I'm not a professional Dev -- I try to improve where I can and leave comments be
 
 6. First - Script will detect installed apps using the function
 
-7. Second - Remediation script does several things
-    A. - Downloads and runs MCPR.zip removal
-    B. - Uses 'get-installedapplications' function to call the msiexec /uninstall value for any remaining apps
-    C. - Removes the Pre-Packaged "McAfee Personal Security" applet from AppX System Image
-    D. - Removes the actual AppX "McAfee Personal Security" App after removal from system image 
-    E. - Removes any traces of McAfee from the "WMI SecurityCenter2" database --- This is important to ensure that Defender for Endpoint re-enables itself
+7. Second - Remediation script does several things:
+    - Downloads and runs MCPR.zip removal
+    - Uses 'get-installedapplications' function to call the msiexec /uninstall value for any remaining apps
+    - Removes the Pre-Packaged "McAfee Personal Security" applet from AppX System Image
+    - Removes the actual AppX "McAfee Personal Security" App after removal from system image 
+    - Removes any traces of McAfee from the "WMI SecurityCenter2" database --- This is important to ensure that Defender for Endpoint re-enables itself
 
 
 
